@@ -1,5 +1,5 @@
 <h3>Front</h3>
-<ul>
+<ul id="content">
   <li *ngFor="let image of images">
     <a [routerLink] = "['/view-media' , image.file_id]" >
       <img [src]="'http://media.mw.metropolia.fi/wbma/uploads/'+image.filename">

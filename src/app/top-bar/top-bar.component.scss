@@ -1,0 +1,23 @@
+/*$button-font: Helvetica;
+$bg-color: #FFC107;
+$lg-color: #FFD968;
+$btn-color: #731AEA;
+$btn-shadow: #A46DEE;
+*/
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    border: 0.5em;
+/*    background-color: $bg-color;*/
+    /*ul {
+        padding: 0;
+        margin: 0;
+    }*/
+}
+li {
+    font-family: 'Helvetica';
+    font-size: 24px;
+}
